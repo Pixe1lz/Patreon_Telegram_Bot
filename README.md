@@ -4,7 +4,7 @@
 
 **В следующих скринах будет показан функционал телеграмм бота**
 
-![image](https://github.com/user-attachments/assets/8cf8374b-68c7-4954-a0be-7ec869c745f2)
+![image](https://github.com/user-attachments/assets/8cf8374b-68c7-4954-a0be-7ec869c745f2) \n
         *Рисунок 1 - Приветственное сообщение*
 
 ![image](https://github.com/user-attachments/assets/b49cc782-d2dd-4d76-b549-98a1360414f8)

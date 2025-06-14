@@ -1,0 +1,52 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3adecb18-a11b-41dd-8273-862e96fe4666</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PatreonTB.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PatreonTB</Name>
+    <RootNamespace>PatreonTB</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app\functions.py" />
+    <Compile Include="app\handlers.py" />
+    <Compile Include="app\keyboards.py" />
+    <Compile Include="BotAdmin\handlers.py" />
+    <Compile Include="briefs\Animation_brief.py" />
+    <Compile Include="briefs\Bots_brief.py" />
+    <Compile Include="briefs\Miniapp_brief.py" />
+    <Compile Include="briefs\Model_brief.py" />
+    <Compile Include="briefs\Motion_brief.py" />
+    <Compile Include="briefs\Videomontage_brief.py" />
+    <Compile Include="briefs\Web_brief.py" />
+    <Compile Include="config.py" />
+    <Compile Include="PatreonTB.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="briefs\" />
+    <Folder Include="BotAdmin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

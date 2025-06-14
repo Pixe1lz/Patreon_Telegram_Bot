@@ -1,0 +1,2 @@
+BOT_TOKEN_ONE = "#"
+BOT_TOKEN_TWO = "#"
